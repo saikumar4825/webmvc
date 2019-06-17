@@ -14,6 +14,7 @@ public class FirstController implements Controller {
 
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("one");
+		System.out.println("haiiii");
 		return modelAndView;
 	}
 
